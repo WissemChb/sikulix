@@ -1,0 +1,71 @@
+[g507954 (8/1/17 3:47:09 PM)]  ################# start Test ######################
+[log] App.open [12799:google-chrome]
+[log] CLICK on L(1055,518)@S(0)[0,0 1600x900] (522 msec)
+[log] CLICK on L(904,346)@S(0)[0,0 1600x900] (521 msec)
+[log] CLICK on L(689,330)@S(0)[0,0 1600x900] (523 msec)
+[info] Enter an IP address should not be possible
+[log] CLICK on L(772,373)@S(0)[0,0 1600x900] (521 msec)
+[info] ************ Pass ******************
+[log] CLICK on L(756,605)@S(0)[0,0 1600x900] (521 msec)
+[info] Enter private 192.168.0.0 address should be not possible
+[log] DOUBLE CLICK on L(728,516)@S(0)[0,0 1600x900] (542 msec)
+[log] ( Ctrl )  TYPE "a"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#TAB."
+[info] ************ Pass ******************
+[info] Enter multicast address should be not possible
+[log] DOUBLE CLICK on L(728,516)@S(0)[0,0 1600x900] (542 msec)
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#TAB."
+[log]  TYPE "#TAB."
+[info] ************ Pass ******************
+[info] Enter public  address 100.64.0.0 should not be  possible
+[log] DOUBLE CLICK on L(728,516)@S(0)[0,0 1600x900] (542 msec)
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#TAB."
+[log]  TYPE "#TAB."
+[info] ************ Pass ******************
+[info] Enter Default address should be not possible
+[log] DOUBLE CLICK on L(728,516)@S(0)[0,0 1600x900] (542 msec)
+[log]  TYPE "#TAB."
+[log]  TYPE "#TAB."
+[log]  TYPE "#TAB."
+[info] ************ Pass ******************
+[info] Enter public  address 169.254.0.0 should not be  possible
+[log] DOUBLE CLICK on L(728,516)@S(0)[0,0 1600x900] (543 msec)
+[log] ( Ctrl )  TYPE "a"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#TAB."
+[info] ************ Pass ******************
+[info] Enter private 172.16.0.0 address should be not possible
+[log] DOUBLE CLICK on L(728,516)@S(0)[0,0 1600x900] (543 msec)
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#TAB."
+[log]  TYPE "#TAB."
+[info] ************ Pass ******************
+[info] Enter public  address 192.88.99.0 should not be  possible
+[log] DOUBLE CLICK on L(728,516)@S(0)[0,0 1600x900] (543 msec)
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#TAB."
+[log]  TYPE "#TAB."
+[info] ************ Pass ******************
+[info] Enter private 10.0.0.0 address should be not possible
+[log] DOUBLE CLICK on L(728,516)@S(0)[0,0 1600x900] (543 msec)
+[log]  TYPE "#TAB."
+[log]  TYPE "#TAB."
+[log]  TYPE "#TAB."
+[info] ************ Pass ******************
+[info] Enter localhost address should be not possible
+[log] DOUBLE CLICK on L(728,516)@S(0)[0,0 1600x900] (544 msec)
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#TAB."
+[log]  TYPE "#TAB."
+[info] ************ Pass ******************
+[info] Enter a valid  address should be saved
+[log] DOUBLE CLICK on L(728,516)@S(0)[0,0 1600x900] (544 msec)
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#TAB."
+[log] ( Ctrl )  TYPE "a"
+[log] CLICK on L(759,578)@S(0)[0,0 1600x900] (522 msec)
+[info] ************ Pass ******************
+[log] App.close: [-1:chrome]

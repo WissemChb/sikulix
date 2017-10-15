@@ -1,0 +1,54 @@
+[g507954 (8/1/17 2:54:48 PM)]  ################# start Test ######################
+[log] App.open [7505:google-chrome]
+[log] CLICK on L(1042,240)@S(0)[0,0 1600x900] (522 msec)
+[log] CLICK on L(990,202)@S(0)[0,0 1600x900] (523 msec)
+[log] CLICK on L(820,429)@S(0)[0,0 1600x900] (522 msec)
+[log]  TYPE "root"
+[log] CLICK on L(746,636)@S(0)[0,0 1600x900] (522 msec)
+[log] CLICK on L(563,717)@S(0)[0,0 1600x900] (522 msec)
+[info] assign a sticky DHCP IP address to device should be saved
+[log] CLICK on L(737,549)@S(0)[0,0 1600x900] (523 msec)
+[log] CLICK on L(736,600)@S(0)[0,0 1600x900] (522 msec)
+[log] CLICK on L(796,377)@S(0)[0,0 1600x900] (525 msec)
+[log] CLICK on L(820,439)@S(0)[0,0 1600x900] (524 msec)
+[log] CLICK on L(739,657)@S(0)[0,0 1600x900] (524 msec)
+[log] CLICK on L(1014,202)@S(0)[0,0 1600x900] (523 msec)
+[info] runcmd: sudo dhclient -r eno1 
+[info] runcmd: sudo dhclient -v eno1 
+[log] CLICK on L(619,162)@S(0)[0,0 1600x900] (526 msec)
+[log] CLICK on L(899,345)@S(0)[0,0 1600x900] (522 msec)
+[log] CLICK on L(835,429)@S(0)[0,0 1600x900] (521 msec)
+[log]  TYPE "root"
+[log] CLICK on L(761,636)@S(0)[0,0 1600x900] (525 msec)
+[log] CLICK on L(616,205)@S(0)[0,0 1600x900] (522 msec)
+[info] ********************* Fail ********************
+[info] changing sticky DHCP IP address of device should be saved
+[log] CLICK on L(619,170)@S(0)[0,0 1600x900] (524 msec)
+[log] CLICK on L(1082,235)@S(0)[0,0 1600x900] (521 msec)
+[log] CLICK on L(565,718)@S(0)[0,0 1600x900] (523 msec)
+[log] CLICK on L(798,379)@S(0)[0,0 1600x900] (521 msec)
+[log] CLICK on L(816,595)@S(0)[0,0 1600x900] (522 msec)
+[log] CLICK on L(740,655)@S(0)[0,0 1600x900] (522 msec)
+[log] CLICK on L(1011,203)@S(0)[0,0 1600x900] (522 msec)
+[info] runcmd: sudo dhclient -r eno1 
+[info] runcmd: sudo dhclient -v eno1 
+[log] CLICK on L(619,162)@S(0)[0,0 1600x900] (523 msec)
+[log] CLICK on L(899,345)@S(0)[0,0 1600x900] (522 msec)
+[log] CLICK on L(835,429)@S(0)[0,0 1600x900] (524 msec)
+[log]  TYPE "root"
+[log] CLICK on L(761,636)@S(0)[0,0 1600x900] (522 msec)
+[log] CLICK on L(617,207)@S(0)[0,0 1600x900] (524 msec)
+[info] ********************* Fail ********************
+[log] CLICK on L(619,170)@S(0)[0,0 1600x900] (522 msec)
+[log] CLICK on L(1082,235)@S(0)[0,0 1600x900] (523 msec)
+[log] CLICK on L(564,719)@S(0)[0,0 1600x900] (521 msec)
+[log] CLICK on L(738,550)@S(0)[0,0 1600x900] (522 msec)
+[log] CLICK on L(738,550)@S(0)[0,0 1600x900] (521 msec)
+[log] CLICK on L(1010,202)@S(0)[0,0 1600x900] (522 msec)
+[info] runcmd: sudo dhclient -r eno1 
+[info] runcmd: sudo dhclient -v eno1 
+[log] CLICK on L(619,162)@S(0)[0,0 1600x900] (525 msec)
+[log] CLICK on L(899,345)@S(0)[0,0 1600x900] (525 msec)
+[log] CLICK on L(617,207)@S(0)[0,0 1600x900] (522 msec)
+[info] ********************* Fail ********************
+[log] App.close: [-1:chrome]
